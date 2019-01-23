@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
+
+	<title>2048</title>
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="2048.css">
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+	<div name="container" class="container">
+            <table border="1" cellpadding="50" cellspacing="20" border-spacing="5px" height="300" width="300" id="table">
+        
+        <tr name="row1">
+            <td name="r1c1" height="19" width="20%" ></td>
+            <td name="r1c2" height="19" width="20%" value="2"></td>
+           <td class="r1c3" height="19" width="20%"></td>
+            <td class="r1c4" height="19" width="20%"></td>
+
+        </tr> 
+               
+                
+        <tr class="row2">
+            <td class="r2c1" height="19" width="20%"></td>
+            <td class="r2c2" height="19" width="20%" value="2"></td>
+           <td class="r2c3" height="19" width="20%">2</td>
+            <td class="r2c4" height="19" width="20%" ></td>
+        </tr>
+               
+           
+        <tr class="row3">
+           <td class="r3c1" height="19" width="20%"></td>
+            <td class="r3c2" height="19" width="20%" ></td>
+           <td class="r3c3" height="19" width="20%">2</td>
+            <td class="r3c4" height="19" width="20%"></td>
+
+        </tr>
+               
+                
+          
+        <tr class="row4">
+            <td name="r4c1" height="19" width="20%" value="4"></td>
+            <td class="r4c2" height="19" width="20%" value="2"></td>
+           <td class="r4c3" height="19" width="20%"></td>
+            <td class="r4c4" height="19" width="20%"></td>
+
+        </tr>
+                
+        
+        </table>
+        
+        
+        <div class="toggle">
+            <input type="button" value="UP" class="up" onclick="up()"><br>
+            <input type="button" value="LEFT" class="left" onclick="left()">
+            <input type="button" value="DOWN" class="down" onclick="down()">
+            <input type="button" value="RIGHT" class="right" onclick="right()">
+        </div>
+        
+	</div>
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="2048.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>

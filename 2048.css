@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+div{
+   
+}
+.container{
+    background-color:darkgray;
+    height: 500px;
+    width: 400px;
+    margin-top: 200px;
+    align-content: center;
+    align-items: center;
+   
+}
+
+.toggle{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+input{
+    
+}
+.up{
+    margin-left: 60px;
+}
+
+
+table{
+  margin-top: 50px;
+    margin-left: 35px;
+    opacity: 0.7;
+    background-color:greenyellow;
+/*    opacity: 0.6;*/
+}
+
+tr{
+    
+}
+td{
+    font-size: 150%;
+   font-family: 'Libre Baskerville', serif; 
+}
+
+
+
